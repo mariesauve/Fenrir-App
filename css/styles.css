@@ -1,8 +1,24 @@
 body {
-    background: linear-gradient(to bottom , #ffffff 2%, #fdd252 100%);
-
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top, #ffffff 24%, #ffbf00 100%);
+  margin: 0;
+  padding: 0;
 }
-
+section {
+  padding: 80px 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 0 10px #0002;
+}
+.box {
+  padding: 20px;
+  background-color: rgba(128, 77, 179, 0.15);
+  border-radius: 10px;
+}
  
   ul {
     list-style-type: none;
