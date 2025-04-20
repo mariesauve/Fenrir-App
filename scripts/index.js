@@ -37,34 +37,13 @@ document.addEventListener("DOMContentLoaded", () => {
     animations.forEach(anim => {
       const child = anim.firstElementChild;
       if (child) {
-        observer.observe(child); // 👈 observe the animated content instead
+        observer.observe(child); 
       }
     });
   });
   
   
-    document.addEventListener("DOMContentLoaded", function () {
-      const button = document.getElementById("contactBtn");
+
   
-      if (button) {
-        button.addEventListener("click", function () {
-          // Just use this to trigger mail client
-          window.location.href = "mailto:info@goeasycare.com";
-        });
-      }
-    });
-  
-    document.addEventListener("DOMContentLoaded", function () {
-      const button = document.getElementById("infoBtn");
-    
-      if (button) {
-        console.log("Button found and ready.");
-        button.addEventListener("click", function () {
-          console.log("Button clicked.");
-          window.location.href = "services.html";
-        });
-      } else {
-        console.log("Button not found.");
-      }
-    });
+
     
